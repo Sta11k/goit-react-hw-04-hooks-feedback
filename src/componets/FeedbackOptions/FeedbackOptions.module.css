@@ -1,0 +1,28 @@
+.list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+
+.list .item:not(:last-child){
+   margin-right: 10px;
+}
+.button {
+  padding: 5px 10px;
+  border: 1px solid #d8d3d3;
+  border-radius: 5px;
+
+  background-color: #fff;
+
+  font-weight: 400;
+  text-transform: capitalize;
+  cursor: pointer;
+
+}
+ button:hover,
+  button:focus {
+    background-color: #3d6b67;
+    color: #fcfcfc;
+    transition: all 250ms linear;
+  }
